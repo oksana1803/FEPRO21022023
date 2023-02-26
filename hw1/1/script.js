@@ -5,5 +5,5 @@
 let price = +prompt("Enter the product price: ");
 let discountTen = price * 0.97; 
 let discountTwenty = price * 0.95; 
-console.log("From 10 products sum is: ", discountTen);
-console.log("From 20 products sum is: ", discountTwenty);
+console.log("From 10 products product price is: ", discountTen);
+console.log("From 20 products product price is: ", discountTwenty);
