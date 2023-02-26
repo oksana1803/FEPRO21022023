@@ -3,7 +3,7 @@
 // 20 товарів ( знижка 5%)
 
 let price = +prompt("Enter the product price: ");
-let discountTen = price * 10 * 0.03; 
-let discountTwenty = price * 20 * 0.05; 
-console.log("From 10 products discount is: ", discountTen);
-console.log("From 20 products discount is: ", discountTwenty);
+let discountTen = price * 0.97; 
+let discountTwenty = price * 0.95; 
+console.log("From 10 products sum is: ", discountTen);
+console.log("From 20 products sum is: ", discountTwenty);
