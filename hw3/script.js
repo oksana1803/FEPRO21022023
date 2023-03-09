@@ -6,16 +6,16 @@ https://www.uz.gov.ua/,
 якщо користувачеві буде до 18 років покажіть йому першу серію лунтика з ютубу
 Виконайте це завдання за допомогою if, switch, тернарний оператор
 */
-// let age = prompt("Enter your age: ");
-// if(age >= 18 && age <= 35) {
-//     location="https://www.google.com.ua/";
-// } else if (age > 35 && age <= 60) {
-//     location="https://www.uz.gov.ua/";
-// } else if (age < 18) {
-//     location="https://www.youtube.com/watch?v=icdSZKq9-sM&ab_channel=%D0%9B%D1%83%D0%BD%D1%82%D0%B8%D0%BA";
-// } else {
-//     document.write("Enter correct age");
-// }
+let age = prompt("Enter your age: ");
+if(age >= 18 && age <= 35) {
+    location="https://www.google.com.ua/";
+} else if (age > 35 && age <= 60) {
+    location="https://www.uz.gov.ua/";
+} else if (age < 18) {
+    location="https://www.youtube.com/watch?v=icdSZKq9-sM&ab_channel=%D0%9B%D1%83%D0%BD%D1%82%D0%B8%D0%BA";
+} else {
+    document.write("Enter correct age");
+}
 
 
 /* Створіть масив styles з елементами «Джаз» та «Блюз».
